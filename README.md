@@ -66,18 +66,3 @@ TravelMomery is a web application designed to help users document and share thei
 
 ---
 
-## How to Run
-1. Clone the repository.
-2. Follow the setup instructions for both backend and frontend.
-3. Ensure MongoDB Atlas is properly configured.
-4. Run the backend and frontend servers simultaneously.
-
----
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any feature additions or bug fixes.
-
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
