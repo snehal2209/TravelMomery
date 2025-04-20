@@ -1,22 +1,83 @@
 # TravelMomery
-## Created .env file and configure MongoDB Atlas
-![Created .env file and configure MongoDB Atlas](image-01-Connecting-Database.png)
 
-Successfully Imported packjes from Backend Directory **npm install** 
-Running Backend **node backend/index.js** 
-![alt text](image-02-Output-node-index.js.png)
+TravelMomery is a web application designed to help users document and share their travel experiences. It allows users to store travel memories, upload photos, and manage their travel data efficiently.
 
+---
 
+## Features
+- Connects to MongoDB Atlas for secure and scalable data storage.
+- Backend powered by Node.js for robust server-side operations.
+- Frontend built with React for a dynamic and responsive user interface.
+- Easy setup with `.env` configuration for both backend and frontend.
 
+---
 
-added Data in Database:
-![alt text](image-03-AddingData.png)
+## Getting Started
 
-Output
-![alt text](image-04.png)
+### Backend Setup
+1. Create a `.env` file in the backend directory and configure MongoDB Atlas.
+   ```
+   MONGO_URI=<Your MongoDB Atlas Connection String>
+   ```
+   ![Created .env file and configure MongoDB Atlas](image-01-Connecting-Database.png)
 
-## FrontEnd 
-1. created .env file inside frontend Directory ***REACT_APP_BACKEND_URL=http://localhost:3001*** , 
-2. Installed all packges
-3. `npm start`
-![alt text](image-05-frontend.png)
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the backend server:
+   ```
+   node backend/index.js
+   ```
+   ![Backend Output](image-02-Output-node-index.js.png)
+
+4. Add data to the database:
+   ![Adding Data to Database](image-03-AddingData.png)
+
+5. Verify the output:
+   ![Output](image-04.png)
+
+---
+
+### Frontend Setup
+1. Create a `.env` file in the frontend directory with the following content:
+   ```
+   REACT_APP_BACKEND_URL=http://localhost:3001
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the frontend server:
+   ```
+   npm start
+   ```
+   ![Frontend Output](image-05-frontend.png)
+
+---
+
+## Technologies Used
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB Atlas
+- **Frontend**: React.js
+
+---
+
+## How to Run
+1. Clone the repository.
+2. Follow the setup instructions for both backend and frontend.
+3. Ensure MongoDB Atlas is properly configured.
+4. Run the backend and frontend servers simultaneously.
+
+---
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any feature additions or bug fixes.
+
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
